@@ -1,0 +1,19 @@
+{
+  "name": "simpleapi",
+  "version": "1.0.0",
+  "description": "Just a simple api with hardcode data ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js"
+
+  },
+  "author": "Luxx",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
