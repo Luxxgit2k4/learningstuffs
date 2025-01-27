@@ -42,6 +42,7 @@ const addname = (req, res) => {
     res.statusCode = 201;
     res.write(JSON.stringify(newname));
   })
+  res.end(JSON.stringify({message: 'Added new name'}))
 }
 
 // server response from handlers
